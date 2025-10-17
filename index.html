@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review & Tiếp Thị Liên Kết</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  
+    <div class="brand">
+      <img src="z7126198174286_6ef3a38fa4a9936712acea146c3f04cf.jpg" alt="Avatar" class="avatar">
+      <span class="x-symbol">  x</span>
+      <img src="imgbin_0cd065ef6d8ef9416a67579836a3eee0.png" alt="shopee" class="shopee-logo">
+    </div>
+
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Tìm sản phẩm..." />
+      <button id="searchButton">Tìm</button>
+    </div>
+
+
+  </header>
+</body>
+</html>
+
+<body>
+  <header>
+    <h1> Review Công Nghệ & Tiếp Thị Liên Kết ✨</h1>  
+    <nav>
+      <a href="#sanpham">Sản phẩm</a>
+      <a href="#lienhe">Liên hệ</a>
+    </nav> 
+  </header>
+
+  <section id="gioithieu" class="intro">
+    <h2>Cảm ơn ai đó đã ghé thăm..</h2>
+    <div class="video-container">
+  <video id="video1" class="intro-video" controls>
+    <source src="vn-11110105-6khwb-lxkibvg9iu3f16.default.mp4" type="video/mp4">
+  </video>
+
+  <video id="video2" class="intro-video" controls>
+    <source src="vn-11110105-6khwh-m94izd114gvi6e.16005681749727365.mp4" type="video/mp4">
+  </video>
+
+  <video id="video3" class="intro-video" controls>
+    <source src="vn-11110105-6ke17-lmzgm8k2dyovfd.16005681718494432.mp4" type="video/mp4">
+  </video>
+
+  <button id="prevBtn" class="nav-btn">←</button>
+  <button id="nextBtn" class="nav-btn">→</button>
+</div>
+
+
+
+  </section>
+  
+  <div class="product-list">
+  <h2>Sản phẩm nổi bật 🔥</h2>
+  <!-- Thanh phân loại -->
+  <div class="category-menu">
+    <button class="show-all-btn dropbtn">Tất cả</button>
+  <!-- Đồ điện tử -->
+  <div class="dropdown">
+    <button class="dropbtn" onclick="toggleDropdown(this)">Đồ điện tử</button>
+    <div class="dropdown-content">
+      <ul>
+        <li data-category="tainghe">Tai nghe</li>
+        <li data-category="chuot">Chuột</li>
+        <li data-category="banphim">Bàn phím</li>
+        <li data-category="loa">Loa</li>
+        <li data-category="phukien">Phụ kiện</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Thời trang -->
+  <div class="dropdown">
+    <button class="dropbtn" onclick="toggleDropdown(this)">Thời trang</button>
+    <div class="dropdown-content">
+      <ul>
+        <li data-category="ao">Áo</li>
+        <li data-category="quan">Quần</li>
+        <li data-category="giaydep">Giày dép</li>
+        <li data-category="balo">Balo - Túi đựng</li>
+        <li data-category="mubaohiem">Mũ bảo hiểm</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Làm đẹp & cá nhân -->
+  <div class="dropdown">
+    <button class="dropbtn" onclick="toggleDropdown(this)">Làm đẹp & cá nhân</button>
+    <div class="dropdown-content">
+      <ul>
+        <li data-category="mypham">Mỹ phẩm</li>
+        <li data-category="cssd">Chăm sóc sắc đẹp</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Đồ gia dụng -->
+  <div class="dropdown">
+    <button class="dropbtn" onclick="toggleDropdown(this)">Đồ gia dụng</button>
+    <div class="dropdown-content">
+      <ul>
+        <li data-category="binhgiunhiet">Bình giữ nhiệt</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  
+  </div>
+<div class="product-grid">
+  <div class="product-slider">
+    <div class="product phukien">
+      <img src="https://down-vn.img.susercontent.com/file/cn-11134207-7ras8-m8e7salrxoyacd.webp" alt="Tai nghe Bluetooth">
+      <h3>GOOJODOQ Quạt gấp 3 trong 1 180°</h3>
+      <p>100 cấp độ có thể điều chỉnh siêu năng lượng gió Quạt di động</p>
+      <a href="https://s.shopee.vn/30fPzNhBdj" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product ao">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m27plk5img1eda.webp" alt="Chuột không dây ABC">
+      <h3> Sweater chữ Thêu MARQUE CALEM DOUCEUR Calem.Club</h3>
+      <p>Chất liệu: Nỉ pe lót bông dày vừa, có khả năng giữ ấm + chống nắng ổn.
+Tips: có thể mix cùng sơ mi bên trong.</p>
+      <a href="https://s.shopee.vn/qawpjP7me" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product tainghe">
+      <img src="https://down-vn.img.susercontent.com/file/cn-11134207-7ras8-m8ivzu1m5hpu0e.webp" alt="Sản phẩm 3">
+      <h3>Tai nghe Bluetooth Lenovo TH30 </h3>
+      <p>Lenovo TH30 Tai nghe không dây Chơi game Độ trễ thấp Âm nhạc Giảm tiếng ồn Cảm ứng thông minh có Mic BT5.4</p>
+      <a href="https://s.shopee.vn/50QUPF6tfM" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product mypham">
+      <img src="https://down-vn.img.susercontent.com/file/sg-11134201-82581-mfwdrvswr1fs0e.webp" alt="Bàn phím cơ RGB">
+      <h3>Kem nền bắt sáng Superstay Lumi Matte 30H che phủ siêu nhẹ mặt Maybelline New York 35ml [MỚI]</h3>
+      <p>Bạn đang tìm kiếm kem nền có hiệu ứng bắt sáng, che phủ nhưng vẫn nhẹ-như-không? Maybelline New York chính thức giới thiệu siêu phẩm kem nền "bắt sáng" MỚI - SUPERSTAY LUMI MATTE 30H che phủ siêu nhẹ mặt.</p>
+      <a href="https://s.shopee.vn/9fCL2InMLp" target="_blank">Mua ngay</a>
+    </div>
+    <div class="product giaydep">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134211-820l4-mfweidyd6n7w44.webp" alt="Sản phẩm 4">
+      <h3>Giày Thể Thao Sneaker Nữ Second Sunday New Symbol Đế Tăng Chiều Cao 4cm SK09</h3>
+      <p>[CHUẨN SIZE] Giày Thể Thao Sneaker Nữ Second Sunday New Symbol Đế Tăng Chiều Cao 4cm SK09.</p>
+      <a href="https://s.shopee.vn/50QVycW2UM" target="_blank">Mua ngay</a>
+    </div>
+    <div class="product tainghe">
+      <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rdyt-mdil172p7gkk0f.webp" alt="Tai nghe Bluetooth">
+      <h3>Tai nghe Bluetooth Hellokitty</h3>
+      <p>Hello Kitty airpod 4 Bộ Vỏ bảo vệ thế hệ bốn airpodPro2 Thích hợp cho Vỏ tai nghe Apple Thế hệ 3 5
+</p>
+      <a href="https://s.shopee.vn/50QSSXGRJY" target="_blank">Mua ngay</a>
+    </div> 
+    <div class="product mypham">
+      <img src="https://down-vn.img.susercontent.com/file/sg-11134201-82581-mfwdrvswr1fs0e.webp" alt="Bàn phím cơ RGB">
+      <h3>Kem nền bắt sáng Superstay Lumi Matte 30H che phủ siêu nhẹ mặt Maybelline New York 35ml [MỚI]</h3>
+      <p>Bạn đang tìm kiếm kem nền có hiệu ứng bắt sáng, che phủ nhưng vẫn nhẹ-như-không? Maybelline New York chính thức giới thiệu siêu phẩm kem nền "bắt sáng" MỚI - SUPERSTAY LUMI MATTE 30H che phủ siêu nhẹ mặt.</p>
+      <a href="https://s.shopee.vn/9fCL2InMLp" target="_blank">Mua ngay</a>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+  <section id="sanpham" class="product-list">
+    <h2> Sản phẩm gợi ý 💡</h2>
+   <div class="product-container">
+    <div class="product tainghe">
+      <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7rdyt-mdil172p7gkk0f.webp" alt="Tai nghe Bluetooth">
+      <h3>Tai nghe Bluetooth Hellokitty</h3>
+      <p>Hello Kitty airpod 4 Bộ Vỏ bảo vệ thế hệ bốn airpodPro2 Thích hợp cho Vỏ tai nghe Apple Thế hệ 3 5
+</p>
+      <a href="https://s.shopee.vn/50QSSXGRJY" target="_blank">Mua ngay</a>
+    </div> 
+   <div class="product quan">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m5sn0trykfy035.webp" alt="Tai nghe Bluetooth">
+      <h3>REDO.Lab - QUẦN KẺ SỌC LY CHÉO ĐIỂM NHẤN HAI CẠP</h3>
+      <p>  Họa tiết kẻ sọc: Giúp kéo dài đôi chân, tạo hiệu ứng thon gọn, thời trang và cá tính.
+           Thiết kế 2 cạp độc đáo: Tạo điểm nhấn lạ mắt, vừa trendy vừa phá cách.</p>
+      <a href="https://s.shopee.vn/5fgCD85vcn" target="_blank">Mua ngay</a>
+    </div> 
+    <div class="product chuot">
+      <img src="https://down-vn.img.susercontent.com/file/cn-11134207-7qukw-lfs13zzhs1ha46@resize_w900_nl.webp" alt="Chuột không dây ABC">
+      <h3>Chuột không dây BASEUS 1600DPI for PC Laptop</h3>
+      <p>Thiết kế nhỏ gọn, pin dùng 6 tháng, kết nối nhanh, cảm biến chính xác 1600 DPI</p>
+      <a href="https://s.shopee.vn/5fgAvclyG4" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product balo">
+      <img src="https://down-vn.img.susercontent.com/file/sg-11134201-22110-03pakdqg8gjvf0.webp" alt="Bàn phím cơ AULA F75">
+      <h3>Balo CAMELIA BRAND® Basic Backpack</h3>
+      <p>Basic nhưng lại rất nhiều lựa chọn, tuy đơn giản nhưng lại phù hợp với mọi hoàn cảnh.</p>
+      <a href="https://s.shopee.vn/5pzcOqbQUz" target="_blank">Mua ngay</a>
+    </div>
+  </div>
+  <div class="product-container">
+    <div class="product chuot">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m1xp4ysqubmb47.webp" alt="Tai nghe Bluetooth">
+      <h3>Chuột Bluetooth tự sạc pin SIDOTECH M1P</h3>
+      <p>không tiếng click sạc 1 lần dùng 8 tuần cho laptop MACBook PC Tablet PAD</p>
+      <a href="https://s.shopee.vn/5VMkyZ9vLb" target="_blank">Mua ngay</a>
+    </div> 
+    <div class="product phukien">
+      <img src="https://down-vn.img.susercontent.com/file/cn-11134207-7ras8-m8e7salrxoyacd.webp" alt="Tai nghe Bluetooth">
+      <h3>GOOJODOQ Quạt gấp 3 trong 1 180°</h3>
+      <p>100 cấp độ có thể điều chỉnh siêu năng lượng gió Quạt di động</p>
+      <a href="https://s.shopee.vn/30fPzNhBdj" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product binhgiunhiet">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lx251zlos4ij07.webp" alt="Chuột không dây ABC">
+      <h3>Bình Nước Giữ Nhiệt Cute</h3>
+      <p>Ly Giữ Nhiệt Có Lọc DETOX thể tích 550ML, có ống hút, nhỏ gọn, tiện (BN89)</p>
+      <a href="https://s.shopee.vn/3fv740r9GR" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product ao">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mbwulc3gxspabe@resize_w900_nl.webp" alt="Bàn phím cơ RGB">
+      <h3>Áo sweater JULIDO </h3>
+      <p>Áo sweater JULIDO với chất liệu vải nỉ lông mềm mịn, thiết kế cổ tròn thoải mái.</p>
+      <a href="https://s.shopee.vn/2g2Zscahx2" target="_blank">Mua ngay</a>
+    </div>
+  </div>
+  <div class="product-container">
+    <div class="product cssd">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mfap02mpe4nh5c.webp" alt="Tai nghe Bluetooth">
+      <h3>Klairs Supple Preparation Toner 180ml</h3>
+      <p>Nước hoa hồng Dear, Klairs Supple Preparation Toner 180ml dưỡng ẩm và mềm da chiết xuất từ thực vật, giúp cân bằng độ pH, tăng cường hiệu quả chăm sóc da.
+</p>
+      <a href="https://s.shopee.vn/70BZ2uL8cC" target="_blank">Mua ngay</a>
+    </div> 
+    <div class="product mypham">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mav1z0s9lznl5a.webp" alt="Tai nghe Bluetooth">
+      <h3>Merzy The Watery Dew Tint 4g</h3>
+      <p>[NEW DEW] Son Tint Bóng Hàn Quốc Bền Màu, Lâu Trôi Cho Đôi Môi Căng Mọng, Ẩm Mịn Merzy The Watery Dew Tint 4g
+</p>
+      <a href="https://s.shopee.vn/AA8apJP8Fs" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product mypham">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2ksd35t1l3a0c.webp" alt="Chuột không dây ABC">
+      <h3>Merzy The Glam Mellow Tint 4g</h3>
+      <p>[New][GLAM EDITION] Son Vỏ Bạc Kem Lì Mềm Mịn, Lâu Trôi Merzy The Glam Mellow Tint 4g</p>
+      <a href="https://s.shopee.vn/gHVWFxzym" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product mubaohiem">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmeam5slgxjzd1.webp" alt="Bàn phím cơ RGB">
+      <h3>Mũ bảo hiểm Napoli nửa đầu</h3>
+      <p>Mũ Bảo Hiểm Nữa Đầu Cho Xe Moto Napoli Haley N04 - Bảo Hành 12 Tháng</p>
+      <a href="https://s.shopee.vn/BLEvidYfa" target="_blank">Mua ngay</a>
+    </div>
+  </div>
+  <div class="product-container">
+    <div class="product phukien">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m5cgmpq9q62e18.webp" alt="Tai nghe Bluetooth">
+      <h3>Quạt mini Goojodoq có màn hình kỹ thuật số LED</h3>
+      <p>Chào mừng bạn đến với cửa hàng chính thức của goojodoq, sản phẩm chúng tôi bán được đảm bảo là hàng chính hãng
+
+
+</p>
+      <a href="https://s.shopee.vn/7KoPTGT2U2" target="_blank">Mua ngay</a>
+    </div> 
+    <div class="product banphim">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxmb3kfc5exl8d@resize_w900_nl.webp" alt="Bàn phím cơ AULA F75">
+      <h3>Bàn phím cơ RGB </h3>
+      <p>không dây 3 mode - Mạch Xuôi - Hỗ trợ hotswap 5 pin - LED RGB - Có App</p>
+      <a href="https://s.shopee.vn/6KvrnUd5Zg" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product mypham">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lxl10hi99hi307.webp" alt="Chuột không dây ABC">
+      <h3>[ODBO] Bảng Phấn Mắt Odbo Kitten Day & Puppy Day Mèo & Cún Con</h3>
+      <p>Odbo chuyến này làm tui bất ngờ quá mọi người ơi! Tưởng hãng chỉ trung thành với các thiết kế basic tinh tế đặc trưng trước giờ thôi, không ngờ nay hãng lại cho ra bảng mắt với bao bì đáng yêu không tưởng luôn á.</p>
+      <a href="https://s.shopee.vn/5VMm0J1gTj" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product balo">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mdk3ytmglvhoc0.webp" alt="Bàn phím cơ RGB">
+      <h3>Túi đựng laptop 11/13/15 inch họa tiết hoạt hình phong cách Hàn Quốc Trang sức mềm Kiểu Hàn</h3>
+      <p>Vui lòng đo kích thước chiều dài và chiều rộng của máy tính (tính bằng cm) và so sánh với kích thước bên trong, nhỏ hơn kích thước bên trong.</p>
+      <a href="https://s.shopee.vn/6fYjOK4fU2" target="_blank">Mua ngay</a>
+    </div>
+  </div>
+  <div class="product-container">
+    <div class="product ao">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lwe7gdn57gt71d.webp" alt="Tai nghe Bluetooth">
+      <h3>TINGOAN® - Áo len đen croptop</h3>
+      <p>bề mặt len hoạ tiết quả trám buộc nơ YURI YURI TOP/V2BL PHIÊN BẢN MỚI NHẤT T2.2025
+</p>
+      <a href="https://s.shopee.vn/9zpBMPWa6D" target="_blank">Mua ngay</a>
+    </div> 
+    <div class="product loa">
+      <img src="https://down-vn.img.susercontent.com/file/sg-11134201-7ra0h-m4ipspm16o5k76.webp" alt="Tai nghe Bluetooth">
+      <h3>Loa Bluetooth Goojodoq 5.3 </h3>
+      <p>Loa Bluetooth không dây Goojodoq 5.3 Âm thanh nổi hai chiều Hỗ trợ cuộc gọi rảnh tay Thẻ TF Đĩa U</p>
+      <a href="https://s.shopee.vn/10uLdZPwQJ" target="_blank">Mua ngay</a>
+    </div> 
+
+    <div class="product quan">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m45x0syhaxyo6d.webp" alt="Chuột không dây ABC">
+      <h3>Quần ống rộng BIGSIZE Banamo Sài Gòn quần suông kẻ sọc Striped Pants </h3>
+      <p>Quần ống rộng BIGSIZE Banamo Sài Gòn quần suông kẻ sọc Striped Pants trẻ trung phong cách Hàn Quốc 9904</p>
+      <a href="https://s.shopee.vn/80470VDuSR" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product balo">
+      <img src="https://down-vn.img.susercontent.com/file/cn-11134207-7ras8-m9jldr6ip5o2f2.webp" alt="Bàn phím cơ RGB">
+      <h3>Túi xách nữ Bostanten nữ kích cỡ10.5*8.3*14.5CM</h3>
+      <p>Những dịp áp dụng: Thích hợp cho văn phòng, trường học, du lịch hoặc các dịp hàng ngày khác</p>
+      <a href="https://s.shopee.vn/8ANXEc7Uck" target="_blank">Mua ngay</a>
+    </div>
+  </div>
+  <div class="product-container">
+    <div class="product quan">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-mdhqcnzjo5dbd6.webp" alt="Tai nghe Bluetooth">
+      <h3>Quần dài kẻ sọc form harem unisex vải oxford premium mềm mỏng nhẹ</h3>
+      <p>vải sọc oxford premium mềm mỏng nhẹ
+
+- Form harem unisex
+
+- Quần lưng thun co giãn thoải mái
+
+
+</p>
+      <a href="https://s.shopee.vn/70BZoajvcH" target="_blank">Mua ngay</a>
+    </div> 
+    <div class="product balo">
+      <img src="https://down-vn.img.susercontent.com/file/cn-11134207-7r98o-lo4sfr3fy0g7c9.webp" alt="Tai nghe Bluetooth">
+      <h3>JUSTSTARTúi Canvas Hàn Quốc Đơn giản đa chức năng đơn vai</h3>
+      <p>Túi to và xinh lắm, chất liệu rất mềm. Túi có một ngắn bự và một ngăn nhỏ ở ngoài thôi. Túi bự bỏ được laptop luôn, có thể mang đi học, với giá tiền mà được cái túi này thì quá rẻ
+</p>
+      <a href="https://s.shopee.vn/7V7qR3EJvH" target="_blank">Mua ngay</a>
+    </div>
+    <div class="product giaydep">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-maxrrqz3wrd86a.webp" alt="Chuột không dây ABC">
+      <h3>Dép sục cross kèm charm</h3>
+      <p>Dép sục Classic Nam nữ độ hoàn thiện cao, nhẹ, thoáng, siêu bền tặng kèm 12 charm gắn dép được chọn mẫu</p>
+      <a href="https://s.shopee.vn/6Kvt3UYKXE" target="_blank">Mua ngay</a>
+    </div>
+
+    <div class="product mypham">
+      <img src="https://down-vn.img.susercontent.com/file/sg-11134201-82581-mfwdrvswr1fs0e.webp" alt="Bàn phím cơ RGB">
+      <h3>Kem nền bắt sáng Superstay Lumi Matte 30H che phủ siêu nhẹ mặt Maybelline New York 35ml [MỚI]</h3>
+      <p>Bạn đang tìm kiếm kem nền có hiệu ứng bắt sáng, che phủ nhưng vẫn nhẹ-như-không? Maybelline New York chính thức giới thiệu siêu phẩm kem nền "bắt sáng" MỚI - SUPERSTAY LUMI MATTE 30H che phủ siêu nhẹ mặt.</p>
+      <a href="https://s.shopee.vn/9fCL2InMLp" target="_blank">Mua ngay</a>
+    </div>
+  </div>
+  <did class="product-container">
+    <div class="product binhgiunhiet">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m9b7valphjk417.webp" alt="Chuột không dây ABC">
+      <h3>Bình giữ nhiệt khắc tên Fan House</h3>
+      <p>bình nước giữ nhiệt 12h inox 316 ống hút tiện lợi 710ml tặng charm 3d, bộ rửa bình</p>
+      <a href="https://s.shopee.vn/3AyqSOAYBf" target="_blank">Mua ngay</a>
+    </div>
+    <div class="product dodung">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-820l4-mdyeho37kyrqa5.webp" alt="Chuột không dây ABC">
+      <h3>Giấy Ăn Ycool ES-50.4 Hello Kitty Trắng</h3>
+      <p>Choice] Giấy Ăn Ycool ES-50.4 Hello Kitty Trắng Mềm Mịn Thùng 30 Gói 300 Tờ 4 Lớp Mềm Mịn An Toàn</p>
+      <a href="https://s.shopee.vn/7KoQkSQ0ks" target="_blank">Mua ngay</a>
+    </div>
+    <div class="product binhgiunhiet">
+      <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m9b7valphjk417.webp" alt="Chuột không dây ABC">
+      <h3>Bình giữ nhiệt khắc tên Fan House</h3>
+      <p>bình nước giữ nhiệt 12h inox 316 ống hút tiện lợi 710ml tặng charm 3d, bộ rửa bình</p>
+      <a href="https://s.shopee.vn/3AyqSOAYBf" target="_blank">Mua ngay</a>
+    </div>
+  </section>
+
+<script>
+  const product = document.querySelectorAll('.product');
+
+  function filterProducts() {
+    const keyword = searchInput.value.toLowerCase();
+    products.forEach(product => {
+      const text = product.innerText.toLowerCase();
+      if (text.includes(keyword)) {
+        product.style.display = 'block';
+      } else {
+        product.style.display = 'none';
+      }
+    });
+  }
+
+  // Lọc khi nhấn nút hoặc khi gõ Enter
+  searchButton.addEventListener('click', filterProducts);
+  searchInput.addEventListener('keyup', (e) => {
+    if (e.key === 'Enter') filterProducts();
+  });
+</script>
+
+
+  <section id="lienhe" class="contact">
+    <h2>📩 Liên hệ</h2>
+    <p>Theo dõi mình để biết thêm nhiều điều thú vị✨</p>
+    <div id="social">
+    <a href="https://facebook.com/suychocungno1" target="_blank" class="social-button fb">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/xduchuy_/" target="_blank" class="social-button insta">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+    </a>
+    <a href="mailto:youremail@example.com" class="social-button mail">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" alt="Mail">
+    </a>
+</div>
+  </section>
+
+  <footer>
+    <p>© 2025 wT | good for life.</p>
+  </footer>
+
+  <script src="script.js"></script>
+ <script>
+  const buttons = document.querySelectorAll('.category-btn');
+  const products = document.querySelectorAll('.product');
+  const searchInput = document.getElementById('searchInput');
+  const searchButton = document.getElementById('searchButton');
+
+  let currentCategory = 'all'; // lưu danh mục hiện tại
+
+  // Khi bấm nút danh mục
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentCategory = btn.getAttribute('data-category'); // cập nhật danh mục
+      filterProducts(); // gọi lại khi đổi danh mục
+    });
+  });
+
+  // Khi bấm nút tìm
+  searchButton.addEventListener('click', filterProducts);
+
+  // Khi nhấn Enter trong ô tìm kiếm
+  searchInput.addEventListener('keypress', e => {
+    if (e.key === 'Enter') filterProducts();
+  });
+
+  // Hàm lọc
+  function filterProducts() {
+    const keyword = searchInput.value.toLowerCase();
+
+    products.forEach(product => {
+      const matchesCategory =
+        currentCategory === 'all' || product.classList.contains(currentCategory);
+      const matchesKeyword = product.innerText.toLowerCase().includes(keyword);
+
+      product.style.display = matchesCategory && matchesKeyword ? 'block' : 'none';
+    });
+  }
+</script>
+
+
+
+ <script>
+  function toggleDropdown(button) {
+    const dropdown = button.parentElement;
+    dropdown.classList.toggle("open");
+
+    // Đóng các dropdown khác
+    document.querySelectorAll('.dropdown').forEach(d => {
+      if (d !== dropdown) {
+        d.classList.remove("open");
+      }
+    });
+  }
+
+  // Đóng menu nếu click bên ngoài
+  window.addEventListener("click", function(e) {
+    if (!e.target.matches('.dropbtn')) {
+      document.querySelectorAll('.dropdown').forEach(d => d.classList.remove("open"));
+    }
+  });
+  
+  // Hàm toggle mở dropdown
+function toggleDropdown(button) {
+  const dropdown = button.parentElement;
+  dropdown.classList.toggle("open");
+  
+  // Đóng dropdown khác khi mở 1 dropdown mới
+  document.querySelectorAll('.dropdown').forEach(d => {
+    if (d !== dropdown) {
+      d.classList.remove("open");
+    }
+  });
+}
+
+// Lắng nghe click vào các mục con (li)
+document.querySelectorAll('.dropdown-content li').forEach(item => {
+  item.addEventListener('click', function(e) {
+    e.stopPropagation(); // tránh sự kiện nổi bọt gây đóng dropdown ngay
+    
+    const category = this.getAttribute('data-category');
+    
+    // Ẩn tất cả sản phẩm
+    document.querySelectorAll('.product').forEach(product => {
+      product.style.display = 'none';
+    });
+
+    // Hiện các sản phẩm có class trùng với category
+    document.querySelectorAll(`.product.${category}`).forEach(product => {
+      product.style.display = 'block';
+    });
+
+    // Đóng tất cả dropdown sau khi chọn
+    document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('open'));
+  });
+});
+
+// Ngoài ra, bạn có thể thêm nút "Tất cả" để show hết sản phẩm
+document.querySelector('.show-all-btn').addEventListener('click', () => {
+  document.querySelectorAll('.product').forEach(product => {
+    product.style.display = 'block';
+  });
+});
+
+</script>
+
+
+<script>
+  const video = document.getElementById('introVideo');
+
+  function enableSound() {
+    video.muted = false;
+    video.play().catch(error => console.log("Không thể phát video:", error));
+    document.removeEventListener('click', enableSound);
+    document.removeEventListener('scroll', enableSound);
+  }
+
+  // Chờ người dùng click hoặc cuộn để bật tiếng
+  document.addEventListener('click', enableSound);
+  document.addEventListener('scroll', enableSound);
+</script>
+
+<script>
+  const videos = document.querySelectorAll('.intro-video');
+  const nextBtn = document.getElementById('nextBtn');
+  const prevBtn = document.getElementById('prevBtn');
+  let currentIndex = 0;
+
+  function showVideo(index) {
+    videos.forEach((video, i) => {
+      video.classList.toggle('active', i === index);
+      video.pause();
+      video.currentTime = 0;
+    });
+    videos[index].play();
+  }
+
+  nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % videos.length;
+    showVideo(currentIndex);
+  });
+
+  prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + videos.length) % videos.length;
+    showVideo(currentIndex);
+  });
+
+  // Vuốt ngang trên mobile
+  let startX = 0;
+  const container = document.querySelector('.video-container');
+
+  container.addEventListener('touchstart', e => {
+    startX = e.touches[0].clientX;
+  });
+
+  container.addEventListener('touchend', e => {
+    const endX = e.changedTouches[0].clientX;
+    const diff = startX - endX;
+
+    if (diff > 50) {
+      currentIndex = (currentIndex + 1) % videos.length;
+      showVideo(currentIndex);
+    } else if (diff < -50) {
+      currentIndex = (currentIndex - 1 + videos.length) % videos.length;
+      showVideo(currentIndex);
+    }
+  });
+
+  showVideo(currentIndex);
+</script>
+
+
+
+
+</body>
+</html>
